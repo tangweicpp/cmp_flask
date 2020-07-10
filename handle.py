@@ -11,6 +11,10 @@ import connect_db as conn
 import time
 import os
 import logging
+import pandas as pd
+import numpy as np
+import json
+
 
 logging.basicConfig(level=logging.INFO, filename='erp.txt',
                     format='%(asctime)s :: %(funcName)s :: %(levelname)s :: %(message)s')
@@ -70,15 +74,33 @@ def get_po_template(custcode):
 
 
 # Upload po file
-def upload_po_file(f):
+def upload_po_file(f, po_data):
     if not f:
         print('文件不存在')
         return False
 
-    file_dir = os.path.join(os.getcwd(), 'uploads/po/entry_file')
+    file_dir = os.path.join(os.getcwd(), 'uploads/po/'+po_data['po_type']+'/'+po_data['cust_code'])
     if not os.path.exists(file_dir):
         os.makedirs(file_dir)
 
     file_path = os.path.join(file_dir, f.filename)
     f.save(file_path)
+
+    parse_po_file(file_path, po_data)
     return True
+
+
+
+
+# Parse po file
+def parse_po_file(file_name, po_data):
+    df = pd.DataFrame(pd.read_excel(file_name, header=None))
+    # print(df)
+    for index, row in df.iterrows():
+        # print(index)
+        print(row)
+        po_id = str(row[2]).strip()
+        fab_device = str(row[4]).strip()
+        print(po_id,fab_device)
+
+    

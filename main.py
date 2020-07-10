@@ -13,6 +13,7 @@ from flask import request
 from flask import make_response
 from flask_cors import CORS
 import handle as h
+import json
 
 # CORS
 app = Flask(__name__)
@@ -55,7 +56,15 @@ def r_get_po_template():
 def upload_po_file():
     if request.method == 'POST':
         f = request.files.get('poFile')
-        if h.upload_po_file(f):
+        po_data = {}
+        po_data['cust_code'] = request.values.get('custCode')
+        po_data['po_type'] = request.values.get('poType')
+        po_data['po_price'] = request.values.get('poPrice')
+        po_data['is_delay'] = request.values.get('isDelay')
+        po_data['delay_days'] = request.values.get('delayDays')
+        # po_data = json.dumps(po_data)
+        # print(po_data)
+        if h.upload_po_file(f, po_data):
             return 'success'
         else:
             return '订单文件上传失败'
