@@ -79,7 +79,8 @@ def upload_po_file(f, po_data):
         print('文件不存在')
         return False
 
-    file_dir = os.path.join(os.getcwd(), 'uploads/po/'+po_data['po_type']+'/'+po_data['cust_code'])
+    file_dir = os.path.join(os.getcwd(), 'uploads/po/' +
+                            po_data['po_type']+'/'+po_data['cust_code'])
     if not os.path.exists(file_dir):
         os.makedirs(file_dir)
 
@@ -88,8 +89,6 @@ def upload_po_file(f, po_data):
 
     parse_po_file(file_path, po_data)
     return True
-
-
 
 
 # Parse po file
@@ -101,6 +100,4 @@ def parse_po_file(file_name, po_data):
         print(row)
         po_id = str(row[2]).strip()
         fab_device = str(row[4]).strip()
-        print(po_id,fab_device)
-
-    
+        print(po_id, fab_device)
