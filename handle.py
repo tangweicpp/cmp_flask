@@ -57,7 +57,7 @@ def get_po_template(custcode):
         return []
 
     jsonData = []
-    sql = "SELECT CUST_CODE,TEMPLATE_FILE ,TEMPLATE_PIC ,KEY_LIST ,FILE_LEVEL,FILE_URL,ACCEPT FROM CMP_CUST_PO_TEMPLATE WHERE CUST_CODE  = '%s'" % (
+    sql = "SELECT CUST_CODE,TEMPLATE_FILE ,TEMPLATE_PIC ,KEY_LIST ,FILE_LEVEL,FILE_URL,ACCEPT,TEMPLATE_ID FROM CMP_CUST_PO_TEMPLATE WHERE CUST_CODE  = '%s'" % (
         custcode)
     results = conn.OracleConn.query(sql)
     for row in results:
@@ -68,6 +68,7 @@ def get_po_template(custcode):
         result['level'] = str(row[4])
         result['file_url'] = str(row[5])
         result['accept'] = str(row[6])
+        result['file_id'] = str(row[7])
 
         jsonData.append(result)
     return jsonData
