@@ -75,30 +75,102 @@ def get_po_template(custcode):
 
 
 # Upload po file
-def upload_po_file(f, po_data):
+def upload_po_file(f, po_header):
     if not f:
         print('文件不存在')
         return False
 
     file_dir = os.path.join(os.getcwd(), 'uploads/po/' +
-                            po_data['po_type']+'/'+po_data['cust_code'])
+                            po_header['po_type']+'/'+po_header['cust_code'])
     if not os.path.exists(file_dir):
         os.makedirs(file_dir)
 
     file_path = os.path.join(file_dir, f.filename)
     f.save(file_path)
 
-    parse_po_file(file_path, po_data)
+    parse_po_file(file_path, po_header)
     return True
 
 
 # Parse po file
-def parse_po_file(file_name, po_data):
+def parse_po_file(file_name, po_header):
+    po_dic = get_po_config(po_header)
+    if not po_dic:
+        return
+
+    file_type = po_dic['file_type']
+    if file_type == 'xlsx':
+        parse_xlsx_file(file_name, po_header, po_dic)
+
+
+# Get Json config
+def get_po_config(po_header):
+    sql = "SELECT TEMPLATE_CONFIG FROM CMP_CUST_PO_TEMPLATE WHERE TEMPLATE_ID  = %s" % (
+        po_header['template_id'])
+    results = conn.OracleConn.query(sql)
+    if not results:
+        print("无法获取配置文件")
+        return False
+    template_config = results[0][0]
+    file_dir = os.path.join(os.getcwd(), template_config)
+    # print("获取到配置文件", file_dir)
+
+    f = open(file_dir, 'r', encoding="utf-8")
+    po_dic = json.load(f)
+    return po_dic
+
+
+# Parse xlsx file
+def parse_xlsx_file(file_name, po_header, po_dic):
     df = pd.DataFrame(pd.read_excel(file_name, header=None))
-    # print(df)
+    keys = po_dic['file_keys']
+    po_data = []
     for index, row in df.iterrows():
-        # print(index)
-        print(row)
-        po_id = str(row[2]).strip()
-        fab_device = str(row[4]).strip()
-        print(po_id, fab_device)
+        if index == 0:
+            continue
+
+        po_row_data = {}
+        po_row_data['po_id'] = str(
+            row[keys['po_id']['position']['col']-1]).strip()
+        po_row_data['fab_device'] = str(
+            row[keys['fab_device']['position']['col']-1]).strip()
+        po_row_data['customer_device'] = str(
+            row[keys['customer_device']['position']['col']-1]).strip()
+        po_row_data['lot_id'] = str(
+            row[keys['lot_id']['position']['col']-1]).strip()
+        po_row_data['wafer_id'] = str(
+            row[keys['wafer_id']['position']['col']-1]).strip()
+        po_row_data['wafer_qty'] = str(
+            row[keys['wafer_qty']['position']['col']-1]).strip()
+        # print(po_row_data)
+        po_data.append(po_row_data)
+
+    print(po_data)
+    check_po_data(po_header, po_dic, po_data)
+    save_po_data(po_header, po_dic, po_data)
+
+
+# Check po data
+def check_po_data(po_header, po_dic, po_data):
+    pass
+
+
+# Save po data
+def save_po_data(po_header, po_dic, po_data):
+    for po_row_data in po_data:
+        if(po_dic['file_keys']['wafer_id']['complexed'] == True):
+            # wafer_item = wafer_item[wafer_item.find('#')+1:]
+            wafer_id_list = po_row_data['wafer_id']
+            for i in range(len(wafer_id_list)-1):
+                # print(wafer_id_list[i])
+                ch = wafer_id_list[i]
+                ch_next = wafer_id_list[i+1]
+                if ch.isdigit():
+                    if ch_next.isdigit():
+                        wafer_id = ''.join(ch, ch_next)
+                        print(wafer_id)
+                    else:
+                        wafer_id = ch
+                        print(wafer_id)
+
+        break

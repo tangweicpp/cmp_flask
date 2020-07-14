@@ -1400,3 +1400,376 @@ NameError: name 'upload_file' is not defined
 2020-07-13 06:49:16,728 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 06:49:16] "[37mGET /cust_list HTTP/1.1[0m" 200 -
 2020-07-13 06:49:31,530 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 06:49:31] "[37mPOST /login HTTP/1.1[0m" 200 -
 2020-07-13 06:49:34,221 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 06:49:34] "[37mGET /cust_list HTTP/1.1[0m" 200 -
+2020-07-13 21:49:28,058 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-13 21:49:28,092 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 21:49:28,888 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 21:49:28,894 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 21:58:14,806 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 21:58:14] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-07-13 21:58:17,568 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 21:58:17] "[37mGET /cust_list HTTP/1.1[0m" 200 -
+2020-07-13 21:58:27,442 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 21:58:27] "[37mPOST /po_template HTTP/1.1[0m" 200 -
+2020-07-13 22:00:41,715 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:00:41] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 22:00:42,052 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:00:42] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 22:01:53,447 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/main.py', reloading
+2020-07-13 22:01:53,667 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:01:54,568 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 22:01:54,580 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 22:02:55,224 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:02:55] "[37mGET /cust_list HTTP/1.1[0m" 200 -
+2020-07-13 22:09:01,900 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-13 22:09:01,902 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:09:02,436 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 22:09:02,442 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 22:09:12,839 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:09:12] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-07-13 22:09:15,638 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:09:15] "[37mGET /cust_list HTTP/1.1[0m" 200 -
+2020-07-13 22:09:22,518 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:09:22] "[37mPOST /po_template HTTP/1.1[0m" 200 -
+2020-07-13 22:09:27,517 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:09:27] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 22:09:27,726 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:09:27] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 22:11:44,938 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-13 22:11:45,232 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:11:46,420 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 22:11:46,423 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 22:11:49,688 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-13 22:11:49,690 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:11:50,305 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 22:11:50,307 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 22:12:00,205 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:12:00] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 22:12:00,613 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:12:00] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 22:13:46,475 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-13 22:13:46,734 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:13:47,620 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 22:13:47,623 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 22:13:50,366 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-13 22:13:50,366 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:13:50,969 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 22:13:50,972 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 22:14:00,480 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:14:00] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 22:14:00,850 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:14:00] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 22:16:05,135 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-13 22:16:05,318 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:16:06,038 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 22:16:06,040 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 22:16:07,924 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-13 22:16:07,925 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:16:08,475 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 22:16:08,477 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 22:16:18,495 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:16:18] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 22:16:18,828 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:16:18] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 22:17:29,352 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-13 22:17:29,636 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:17:30,501 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 22:17:30,503 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 22:17:32,707 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-13 22:17:32,708 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:17:33,315 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 22:17:33,336 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 22:17:41,251 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:17:41] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 22:17:41,654 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:17:41] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 22:21:24,766 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-13 22:21:24,768 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:21:25,332 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 22:21:25,338 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 22:21:35,621 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:21:35] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 22:21:36,048 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:21:36] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 22:21:53,604 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-13 22:21:53,868 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:21:54,639 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 22:21:54,641 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 22:21:56,421 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-13 22:21:56,422 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:21:57,046 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 22:21:57,074 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 22:22:02,587 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:22:02] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 22:22:03,021 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:22:03] "[35m[1mPOST /upload_po_file HTTP/1.1[0m" 500 -
+2020-07-13 22:24:41,576 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-13 22:24:41,867 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:24:42,727 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 22:24:42,729 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 22:24:46,767 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-13 22:24:46,862 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:24:48,331 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-13 22:24:48,332 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:24:48,913 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 22:24:48,914 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 22:24:54,815 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:24:54] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 22:24:55,259 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:24:55] "[35m[1mPOST /upload_po_file HTTP/1.1[0m" 500 -
+2020-07-13 22:25:07,236 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-13 22:25:07,397 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:25:11,363 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-13 22:25:11,365 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:25:11,865 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 22:25:11,868 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 22:25:16,894 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:25:16] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 22:25:17,264 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:25:17] "[35m[1mPOST /upload_po_file HTTP/1.1[0m" 500 -
+2020-07-13 22:26:20,313 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-13 22:26:20,315 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:26:20,911 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 22:26:20,913 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 22:26:26,441 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:26:26] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 22:26:26,564 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:26:26] "[35m[1mPOST /upload_po_file HTTP/1.1[0m" 500 -
+2020-07-13 22:26:57,244 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-13 22:26:57,354 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:26:58,698 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-13 22:26:58,699 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:26:59,254 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 22:26:59,255 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 22:27:03,715 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:27:03] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 22:27:03,865 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:27:03] "[35m[1mPOST /upload_po_file HTTP/1.1[0m" 500 -
+2020-07-13 22:29:57,876 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-13 22:29:57,971 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:29:58,690 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 22:29:58,692 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 22:30:01,861 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-13 22:30:01,862 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:30:02,411 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 22:30:02,411 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 22:30:12,006 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:30:12] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-07-13 22:30:14,861 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:30:14] "[37mGET /cust_list HTTP/1.1[0m" 200 -
+2020-07-13 22:30:19,361 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:30:19] "[37mPOST /po_template HTTP/1.1[0m" 200 -
+2020-07-13 22:30:22,323 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:30:22] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 22:30:22,384 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:30:22] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 22:31:31,980 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-13 22:31:31,980 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:31:32,556 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 22:31:32,557 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 22:31:40,955 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:31:40] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 22:31:41,039 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:31:41] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 22:32:41,190 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-13 22:32:41,306 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:32:41,899 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 22:32:41,901 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 22:32:43,601 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-13 22:32:43,602 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:32:44,197 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 22:32:44,197 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 22:32:49,736 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:32:49] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 22:32:49,882 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:32:49] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 22:33:03,366 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-13 22:33:03,522 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:33:05,238 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-13 22:33:05,239 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:33:05,825 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 22:33:05,825 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 22:33:13,757 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:33:13] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 22:33:13,915 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:33:13] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 22:49:23,558 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-13 22:49:23,656 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:49:24,272 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 22:49:24,272 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 22:49:25,909 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-13 22:49:25,910 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:49:26,455 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 22:49:26,455 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 22:49:33,918 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:49:33] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 22:49:34,016 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:49:34] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 22:53:00,602 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-13 22:53:00,603 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:53:01,162 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 22:53:01,162 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 22:53:07,704 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:53:07] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 22:53:07,778 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 22:53:07] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 22:58:57,300 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-13 22:58:57,368 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 22:58:57,858 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 22:58:57,859 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 23:24:29,479 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-13 23:24:29,738 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 23:24:30,358 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 23:24:30,360 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 23:44:33,624 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-13 23:44:33,739 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 23:44:35,965 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-13 23:44:35,968 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 23:44:36,504 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 23:44:36,505 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 23:44:47,075 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 23:44:47] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-07-13 23:44:51,507 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 23:44:51] "[37mGET /cust_list HTTP/1.1[0m" 200 -
+2020-07-13 23:44:55,447 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 23:44:55] "[37mPOST /po_template HTTP/1.1[0m" 200 -
+2020-07-13 23:44:59,041 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 23:44:59] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 23:44:59,243 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 23:44:59] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 23:46:37,592 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-13 23:46:37,683 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 23:46:38,336 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 23:46:38,338 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 23:46:39,680 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-13 23:46:39,681 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 23:46:40,188 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 23:46:40,188 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 23:46:46,642 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 23:46:46] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 23:46:46,843 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 23:46:46] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 23:49:01,489 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-13 23:49:01,578 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 23:49:03,515 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-13 23:49:03,516 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 23:49:04,042 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 23:49:04,042 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 23:49:12,683 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 23:49:12] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 23:49:12,864 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 23:49:12] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 23:51:36,448 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-13 23:51:36,568 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 23:51:37,154 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 23:51:37,155 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 23:51:39,603 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-13 23:51:39,603 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 23:51:40,075 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 23:51:40,076 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 23:51:45,858 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 23:51:45] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 23:51:46,083 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 23:51:46] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 23:52:50,708 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-13 23:52:50,821 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 23:52:51,786 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 23:52:51,786 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 23:55:18,062 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-13 23:55:18,168 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 23:55:18,835 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 23:55:18,835 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 23:55:36,001 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-13 23:55:36,134 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 23:55:36,977 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 23:55:36,978 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 23:55:38,901 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-13 23:55:38,902 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 23:55:39,687 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 23:55:39,689 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 23:55:47,437 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 23:55:47] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 23:55:47,647 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 23:55:47] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 23:57:35,731 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-13 23:57:35,804 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 23:57:36,371 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 23:57:36,372 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 23:57:39,156 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-13 23:57:39,157 :: _log :: INFO ::  * Restarting with stat
+2020-07-13 23:57:39,693 :: _log :: WARNING ::  * Debugger is active!
+2020-07-13 23:57:39,693 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-13 23:57:43,529 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 23:57:43] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 23:57:43,690 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 23:57:43] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 23:59:05,931 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 23:59:05] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 23:59:06,027 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 23:59:06] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 23:59:25,467 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 23:59:25] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 23:59:25,611 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 23:59:25] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 23:59:38,320 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 23:59:38] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-13 23:59:38,422 :: _log :: INFO :: 10.160.31.173 - - [13/Jul/2020 23:59:38] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 00:03:39,632 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 00:03:39] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 00:03:39,753 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 00:03:39] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 01:00:02,127 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 01:00:02] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 01:00:02,335 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 01:00:02] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 01:09:55,723 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 01:09:55] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 01:09:55,916 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 01:09:55] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 01:17:33,465 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-14 01:17:33,623 :: _log :: INFO ::  * Restarting with stat
+2020-07-14 01:17:34,936 :: _log :: WARNING ::  * Debugger is active!
+2020-07-14 01:17:34,941 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-14 01:19:24,987 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-14 01:19:25,118 :: _log :: INFO ::  * Restarting with stat
+2020-07-14 01:19:26,264 :: _log :: WARNING ::  * Debugger is active!
+2020-07-14 01:19:26,265 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-14 01:19:36,388 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/main.py', reloading
+2020-07-14 01:19:36,484 :: _log :: INFO ::  * Restarting with stat
+2020-07-14 01:19:37,438 :: _log :: WARNING ::  * Debugger is active!
+2020-07-14 01:19:37,438 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-14 01:19:42,359 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-14 01:19:42,361 :: _log :: INFO ::  * Restarting with stat
+2020-07-14 01:19:42,842 :: _log :: WARNING ::  * Debugger is active!
+2020-07-14 01:19:42,842 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-14 01:19:55,790 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 01:19:55] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 01:19:56,084 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 01:19:56] "[35m[1mPOST /upload_po_file HTTP/1.1[0m" 500 -
+2020-07-14 01:20:43,773 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-14 01:20:43,774 :: _log :: INFO ::  * Restarting with stat
+2020-07-14 01:20:44,307 :: _log :: WARNING ::  * Debugger is active!
+2020-07-14 01:20:44,308 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-14 01:20:48,540 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-14 01:20:48,541 :: _log :: INFO ::  * Restarting with stat
+2020-07-14 01:20:49,090 :: _log :: WARNING ::  * Debugger is active!
+2020-07-14 01:20:49,090 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-14 02:50:15,374 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 02:50:15] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 02:50:15,776 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 02:50:15] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 02:50:34,205 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 02:50:34] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 02:50:34,316 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 02:50:34] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 02:58:43,972 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-14 02:58:44,317 :: _log :: INFO ::  * Restarting with stat
+2020-07-14 02:58:46,514 :: _log :: WARNING ::  * Debugger is active!
+2020-07-14 02:58:46,515 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-14 02:59:04,734 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-14 02:59:04,735 :: _log :: INFO ::  * Restarting with stat
+2020-07-14 02:59:05,277 :: _log :: WARNING ::  * Debugger is active!
+2020-07-14 02:59:05,278 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-14 02:59:20,946 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 02:59:20] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 02:59:21,205 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 02:59:21] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 03:00:01,102 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 03:00:01] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 03:00:01,226 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 03:00:01] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 03:01:25,718 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 03:01:25] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 03:01:25,898 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 03:01:25] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 03:01:40,050 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-14 03:01:40,051 :: _log :: INFO ::  * Restarting with stat
+2020-07-14 03:01:40,569 :: _log :: WARNING ::  * Debugger is active!
+2020-07-14 03:01:40,570 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-14 03:01:45,174 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 03:01:45] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 03:01:45,398 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 03:01:45] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 03:24:33,101 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-14 03:24:33,292 :: _log :: INFO ::  * Restarting with stat
+2020-07-14 03:24:34,437 :: _log :: WARNING ::  * Debugger is active!
+2020-07-14 03:24:34,438 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-14 03:24:36,787 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-14 03:24:36,788 :: _log :: INFO ::  * Restarting with stat
+2020-07-14 03:24:37,349 :: _log :: WARNING ::  * Debugger is active!
+2020-07-14 03:24:37,349 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-14 03:24:44,615 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 03:24:44] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 03:24:44,825 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 03:24:44] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 03:30:54,890 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-14 03:30:55,095 :: _log :: INFO ::  * Restarting with stat
+2020-07-14 03:30:58,033 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-14 03:30:58,034 :: _log :: INFO ::  * Restarting with stat
+2020-07-14 03:30:58,608 :: _log :: WARNING ::  * Debugger is active!
+2020-07-14 03:30:58,609 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-14 03:31:03,809 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 03:31:03] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 03:31:04,011 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 03:31:04] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 03:42:15,317 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 03:42:15] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 03:42:15,458 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 03:42:15] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 04:19:25,876 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-14 04:19:25,877 :: _log :: INFO ::  * Restarting with stat
+2020-07-14 04:19:26,556 :: _log :: WARNING ::  * Debugger is active!
+2020-07-14 04:19:26,556 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-14 04:19:39,871 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 04:19:39] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 04:19:40,171 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 04:19:40] "[35m[1mPOST /upload_po_file HTTP/1.1[0m" 500 -
+2020-07-14 04:21:53,033 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-14 04:21:53,195 :: _log :: INFO ::  * Restarting with stat
+2020-07-14 04:21:54,395 :: _log :: WARNING ::  * Debugger is active!
+2020-07-14 04:21:54,395 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-14 04:21:56,832 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-14 04:21:56,833 :: _log :: INFO ::  * Restarting with stat
+2020-07-14 04:21:57,375 :: _log :: WARNING ::  * Debugger is active!
+2020-07-14 04:21:57,375 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-14 04:22:05,928 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 04:22:05] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 04:22:06,105 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 04:22:06] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 04:23:16,112 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-14 04:23:16,196 :: _log :: INFO ::  * Restarting with stat
+2020-07-14 04:23:18,817 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-14 04:23:18,818 :: _log :: INFO ::  * Restarting with stat
+2020-07-14 04:23:19,400 :: _log :: WARNING ::  * Debugger is active!
+2020-07-14 04:23:19,401 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-14 04:23:23,830 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 04:23:23] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 04:23:24,081 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 04:23:24] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 04:25:43,699 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-14 04:25:43,795 :: _log :: INFO ::  * Restarting with stat
+2020-07-14 04:25:46,540 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-14 04:25:46,541 :: _log :: INFO ::  * Restarting with stat
+2020-07-14 04:25:47,108 :: _log :: WARNING ::  * Debugger is active!
+2020-07-14 04:25:47,109 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-14 04:25:57,669 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 04:25:57] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 04:25:57,937 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 04:25:57] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 04:29:57,359 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-14 04:29:57,522 :: _log :: INFO ::  * Restarting with stat
+2020-07-14 04:29:58,080 :: _log :: WARNING ::  * Debugger is active!
+2020-07-14 04:29:58,080 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-14 04:29:59,728 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-14 04:29:59,730 :: _log :: INFO ::  * Restarting with stat
+2020-07-14 04:30:00,293 :: _log :: WARNING ::  * Debugger is active!
+2020-07-14 04:30:00,294 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-14 04:30:06,882 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 04:30:06] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 04:30:07,134 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 04:30:07] "[35m[1mPOST /upload_po_file HTTP/1.1[0m" 500 -
+2020-07-14 04:31:19,044 :: _log :: INFO ::  * Detected change in '/root/share/flask/src/handle.py', reloading
+2020-07-14 04:31:19,254 :: _log :: INFO ::  * Restarting with stat
+2020-07-14 04:31:21,472 :: _log :: INFO ::  * Running on http://10.160.31.115:5000/ (Press CTRL+C to quit)
+2020-07-14 04:31:21,472 :: _log :: INFO ::  * Restarting with stat
+2020-07-14 04:31:21,987 :: _log :: WARNING ::  * Debugger is active!
+2020-07-14 04:31:21,988 :: _log :: INFO ::  * Debugger PIN: 278-044-988
+2020-07-14 04:31:26,637 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 04:31:26] "[37mOPTIONS /upload_po_file HTTP/1.1[0m" 200 -
+2020-07-14 04:31:26,806 :: _log :: INFO :: 10.160.31.173 - - [14/Jul/2020 04:31:26] "[37mPOST /upload_po_file HTTP/1.1[0m" 200 -

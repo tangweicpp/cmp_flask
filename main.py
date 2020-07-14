@@ -56,15 +56,15 @@ def r_get_po_template():
 def upload_po_file():
     if request.method == 'POST':
         f = request.files.get('poFile')
-        po_data = {}
-        po_data['cust_code'] = request.values.get('custCode')
-        po_data['po_type'] = request.values.get('poType')
-        po_data['po_price'] = request.values.get('poPrice')
-        po_data['is_delay'] = request.values.get('isDelay')
-        po_data['delay_days'] = request.values.get('delayDays')
-        # po_data = json.dumps(po_data)
-        # print(po_data)
-        if h.upload_po_file(f, po_data):
+        po_header = {}
+        po_header['cust_code'] = request.values.get('custCode')
+        po_header['po_type'] = request.values.get('poType')
+        po_header['po_price'] = request.values.get('poPrice')
+        po_header['is_delay'] = request.values.get('isDelay')
+        po_header['delay_days'] = request.values.get('delayDays')
+        po_header['template_id'] = request.values.get('templateId')
+
+        if h.upload_po_file(f, po_header):
             return 'success'
         else:
             return '订单文件上传失败'
