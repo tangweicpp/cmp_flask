@@ -14,6 +14,7 @@ import logging
 import pandas as pd
 import numpy as np
 import json
+import re
 
 
 logging.basicConfig(level=logging.INFO, filename='erp.txt',
@@ -157,20 +158,33 @@ def check_po_data(po_header, po_dic, po_data):
 
 # Save po data
 def save_po_data(po_header, po_dic, po_data):
-    for po_row_data in po_data:
-        if(po_dic['file_keys']['wafer_id']['complexed'] == True):
-            # wafer_item = wafer_item[wafer_item.find('#')+1:]
-            wafer_id_list = po_row_data['wafer_id']
-            for i in range(len(wafer_id_list)-1):
-                # print(wafer_id_list[i])
-                ch = wafer_id_list[i]
-                ch_next = wafer_id_list[i+1]
-                if ch.isdigit():
-                    if ch_next.isdigit():
-                        wafer_id = ''.join(ch, ch_next)
-                        print(wafer_id)
-                    else:
-                        wafer_id = ch
-                        print(wafer_id)
+    for item in po_data:
+        wafer_id_list = get_wafer_list(item['wafer_id'])
+        print(wafer_id_list)
 
-        break
+
+# Get list
+def get_wafer_list(wafer_str):
+    wafer_str_new = re.sub(r'[_~-]', ' _ ', wafer_str)
+    pattern = re.compile(r'[A-Za-z0-9_]+')
+    result1 = pattern.findall(wafer_str_new)
+
+    # extend
+    for i in range(1, len(result1)-1):
+        if result1[i] == '_':
+            if result1[i-1].isdigit() and result1[i+1].isdigit():
+                bt = []
+                if int(result1[i-1]) < int(result1[i+1]):
+                    for j in range(int(result1[i-1])+1, int(result1[i+1])):
+                        bt.append(f'{j}')
+                else:
+                    for j in range(int(result1[i-1])-1, int(result1[i+1]), -1):
+                        bt.append(f'{j}')
+                result1.extend(bt)
+
+    # remove '_'
+    result2 = sorted(set(result1), key=result1.index)
+    if '_' in result2:
+        result2.remove('_')
+
+    return result2
