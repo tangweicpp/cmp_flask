@@ -63,13 +63,22 @@ def upload_po_file():
         po_header['is_delay'] = request.values.get('isDelay')
         po_header['delay_days'] = request.values.get('delayDays')
         po_header['template_id'] = request.values.get('templateId')
+        po_header['is_bonded'] = request.values.get('isBonded')
 
         if h.upload_po_file(f, po_header):
-            return 'success'
+            return make_response('success', 200)
         else:
-            return '订单文件上传失败'
+            return make_response('订单文件上传失败', 501)
+
+
+# Update progress
+@app.route('/update_progress', methods=['GET', 'POST'])
+def r_update_progress():
+    if request.method == 'GET':
+        num = h.get_progress()
+        return str(num)
 
 
 # Run server
 if __name__ == "__main__":
-    app.run(host='10.160.31.115', debug=True)
+    app.run(host='10.160.31.115', debug=True, threaded=True)

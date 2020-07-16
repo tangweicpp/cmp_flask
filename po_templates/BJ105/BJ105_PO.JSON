@@ -7,8 +7,9 @@
     "file_keys": {
         "po_id": {
             "position": {
-                "col": 3,
-                "col_header": "订单号"
+                "col_num": 3,
+                "col_char": "C",
+                "col_name": "订单号"
             },
             "fix_len": null,
             "max_len": 40,
@@ -22,8 +23,9 @@
         },
         "customer_device": {
             "position": {
-                "col": 6,
-                "col_header": "客户机种名"
+                "col_num": 6,
+                "col_char": "F",
+                "col_name": "客户机种名"
             },
             "fix_len": null,
             "max_len": 20,
@@ -37,8 +39,9 @@
         },
         "fab_device": {
             "position": {
-                "col": 5,
-                "col_header": "FAB机种名"
+                "col_num": 5,
+                "col_char": "E",
+                "col_name": "FAB机种名"
             },
             "fix_len": null,
             "max_len": 20,
@@ -52,8 +55,9 @@
         },
         "lot_id": {
             "position": {
-                "col": 7,
-                "col_header": "lot号"
+                "col_num": 7,
+                "col_char": "G",
+                "col_name": "lot号"
             },
             "fix_len": 7,
             "max_len": 7,
@@ -67,8 +71,9 @@
         },
         "wafer_id": {
             "position": {
-                "col": 8,
-                "col_header": "WAFER ID"
+                "col_num": 8,
+                "col_char": "H",
+                "col_name": "WAFER ID"
             },
             "fix_len": null,
             "max_len": 50,
@@ -82,8 +87,9 @@
         },
         "wafer_qty": {
             "position": {
-                "col": 9,
-                "col_header": "片数"
+                "col_num": 9,
+                "col_char": "I",
+                "col_name": "片数"
             },
             "fix_len": null,
             "max_len": 50,
