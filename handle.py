@@ -19,6 +19,7 @@ from openpyxl.utils import get_column_letter, column_index_from_string
 
 
 progress = 0
+user_progress = {}
 
 
 logging.basicConfig(level=logging.INFO, filename='erp.txt',
@@ -26,9 +27,11 @@ logging.basicConfig(level=logging.INFO, filename='erp.txt',
 
 
 # Upload progress
-def get_progress():
+def get_progress(user_key):
     global progress
-    return progress
+    global user_progress
+    # return progress
+    return user_progress[user_key]
 
 
 # Check username and password
@@ -80,6 +83,9 @@ def get_po_template(custcode):
         result['file_url'] = str(row[5])
         result['accept'] = str(row[6])
         result['file_id'] = str(row[7])
+        result['show_progress_flag'] = False
+        result['show_filelist_flag'] = False
+        result['load_progress'] = 0
 
         jsonData.append(result)
     return jsonData
@@ -87,6 +93,7 @@ def get_po_template(custcode):
 
 # Upload po file
 def upload_po_file(f, po_header):
+    global user_progress
     if not f:
         print('文件不存在')
         return False
@@ -99,6 +106,8 @@ def upload_po_file(f, po_header):
     file_path = os.path.join(file_dir, f.filename)
     f.save(file_path)
     parse_po_file(file_path, po_header)
+    # Del user key
+    # del user_progress[po_header['user_upload_progress']]
 
     return True
 
@@ -196,7 +205,9 @@ def check_po_data(po_header, po_dic, po_data):
 # Save po data
 def save_po_data(po_header, po_dic, po_data):
     global progress
+    global user_progress
     progress = 0
+    user_progress[po_header['user_upload_progress']] = 0
     num = 0
     for item in po_data:
         wafer_id_list = get_wafer_list(item['wafer_id'])
@@ -216,6 +227,8 @@ def save_po_data(po_header, po_dic, po_data):
         for i in range(len(wafer_id_list)):
             insert_po_data(wafer_id_list[i], po_header, item)
             progress = progress + 100 / float(num)
+            user_progress[po_header['user_upload_progress']
+                          ] = user_progress[po_header['user_upload_progress']] + 100 / float(num)
 
 
 def insert_po_data(wafer_id, po_header, po_data):

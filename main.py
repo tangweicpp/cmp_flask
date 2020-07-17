@@ -64,6 +64,8 @@ def upload_po_file():
         po_header['delay_days'] = request.values.get('delayDays')
         po_header['template_id'] = request.values.get('templateId')
         po_header['is_bonded'] = request.values.get('isBonded')
+        po_header['user_upload_progress'] = request.values.get(
+            'userUploadRandom')
 
         if h.upload_po_file(f, po_header):
             return make_response('success', 200)
@@ -75,7 +77,8 @@ def upload_po_file():
 @app.route('/update_progress', methods=['GET', 'POST'])
 def r_update_progress():
     if request.method == 'GET':
-        num = h.get_progress()
+        user_key = request.args.get('userKey')
+        num = str(h.get_progress(user_key))
         return str(num)
 
 
